@@ -1,6 +1,6 @@
-x = list(map(int,input().split()))
-a = []
-for i in x:
-      if i not in a:
-            a.append(i)
-print(a)
+nums = list(map(int,input().split()))
+dupli = []
+for i in nums:
+      if i not in dupli:
+            dupli.append(i)
+print(len(dupli))
