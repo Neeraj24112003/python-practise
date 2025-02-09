@@ -8,7 +8,7 @@ for i in range(len(s)):
             break
       else:
             s.pop()
-if len(s) > 0:
-      print("false")
+if len(s) == 0:
+      print("True")
 else:
-      print("true")
+      print("False")

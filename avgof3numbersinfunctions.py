@@ -1,6 +1,6 @@
-def avg(a,b,c):
+def averag(a,b,c):
       return (a+b+c)/3
 a = int(input())
 b = int(input())
 c = int(input())
-print(avg(a,b,c))
+print(averag(a,b,c))
